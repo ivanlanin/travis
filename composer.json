@@ -1,0 +1,19 @@
+{
+    "description": "Travis with Composer",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-xml": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "squizlabs/php_codesniffer": "1.*",
+        "phpmd/phpmd": "dev-master",
+        "sebastian/phpcpd": "*",
+        "phploc/phploc": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/Hello"
+        }
+    }
+}
